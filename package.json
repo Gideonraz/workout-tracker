@@ -1,0 +1,27 @@
+{
+  "name": "mongoose_skeleton",
+  "version": "1.0.0",
+  "description": "The purpose of this project was to create an application that allows users to track their workouts. Users can create new workouts, continue workouts, and view a dashboard.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "watch": "nodemon server.js",
+    "seed": "node seeders/seed.js"
+  },
+  "author": "Gideon Razzaq",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.3",
+    "mongoose": "^5.13.14",
+    "morgan": "^1.9.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gideonraz/workout-tracker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Gideonraz/workout-tracker/issues"
+  },
+  "homepage": "https://github.com/Gideonraz/workout-tracker#readme"
+}
