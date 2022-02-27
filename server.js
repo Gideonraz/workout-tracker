@@ -1,7 +1,7 @@
 const express = require("express");
 const logger = require("morgan");
 const mongoose = require("mongoose");
-const viewRoutes = require("./routes/viewRoutes.js");
+const viewRoutes = require("./routes/viewRoutes");
 const apiRoutes = require("./routes/apiRoutes");
 
 mongoose.connect(
